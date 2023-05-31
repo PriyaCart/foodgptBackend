@@ -12,7 +12,7 @@ module.exports = {
       let cityName;
       let cityResponse;
       const configuration = new Configuration({
-        apiKey: "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"
+        apiKey: "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"
       });
     
       const openai = new OpenAIApi(configuration);
@@ -65,7 +65,7 @@ module.exports = {
       dishArray = dish.split(',');
       let bfArray = [];
       const configuration = new Configuration({
-        apiKey: "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"
+        apiKey: "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"
       });
       const openai = new OpenAIApi(configuration);
       for(let i=0; i<dishArray.length; i++){
@@ -104,7 +104,7 @@ module.exports = {
       dishArray = dish.split(',');
       let bfArray = [];
       const configuration = new Configuration({
-        apiKey: "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"
+        apiKey: "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"
       });
       const openai = new OpenAIApi(configuration);
       for(let i=0; i<dishArray.length; i++){
@@ -142,7 +142,7 @@ module.exports = {
       dishArray = dish.split(',');
       let bfArray = [];
       const configuration = new Configuration({
-        apiKey: "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"
+        apiKey: "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"
       });
       const openai = new OpenAIApi(configuration);
       for(let i=0; i<dishArray.length; i++){
