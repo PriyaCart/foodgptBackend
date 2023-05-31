@@ -4,8 +4,8 @@ const cors = require("cors");
 const axios = require("axios");
 var cookieParser = require("cookie-parser");
 var bodyParser = require("body-parser");
-var corsoption= {origin:"chrome-extension://bfieobpcoahaiboapaikaieoejppjicl"}
-app.use(cors(corsoption))
+var corsoption = { origin: "http://localhost:3000" };
+app.use(cors(corsoption));
 
 const PORT = 9000;
 const HOST = "localhost";
